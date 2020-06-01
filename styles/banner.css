@@ -1,3 +1,16 @@
 .banner {
     background-color: darkgoldenrod;
 }
+
+
+
+.banner__title {
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+
+.banner__logo_image {
+    max-width: 10%;
+    max-height: 10%;
+}
