@@ -9,10 +9,13 @@
     display: flex;
     margin: 15px;
     font-size: 20px;
+    padding-left: 5px;
 }
 
 .quote__header {
     background-color: seashell;
     margin: 15px;
-    font-size: 30px;
+    font-size: 35px;
+    text-align: center;
+    
 }

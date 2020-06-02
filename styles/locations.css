@@ -10,9 +10,7 @@
     margin: auto;
     text-align: center;
     padding: 5px;
-    border: black dotted 1px;
     margin: 5px;
-
 }
 
 .flip__card {
@@ -50,7 +48,6 @@
     background-color: lightcoral;
     color: black;
     transform: rotateY(180deg);
-    border: yellow dotted 1px;
 }
 
 .flip__card:hover .flip__card_inner {
@@ -58,7 +55,16 @@
 }
 
 .location__picture {
-    max-width: 250px;
-    max-height: auto;
+    width: 250px;
+    height: 175px;
     object-fit: cover;
     }
+
+.location__header {
+    text-align: center;
+    background-color: seashell;
+    font-size: 35px;
+    padding: 5px;
+    margin: 5px;
+}
+}

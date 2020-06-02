@@ -2,7 +2,7 @@ const fishCollection = [
     {
         species: "Fish Fish",
         length: "2 in",
-        location: "corral off of Australia",
+        location: "coral off of Australia",
         picture: "./images/c3npbx.jpg",
         food: "aussie fries",
         name: "Bert"
@@ -18,7 +18,7 @@ const fishCollection = [
     {
         species: "Lion Fish",
         length: "14 in",
-        location: "corral reef off of Barbadose",
+        location: "coral reef off of Barbadose",
         picture: "./images/fish-hero.adapt.1900.1.jpg",
         food: "other fish",
         name: "Drew"

@@ -5,14 +5,14 @@ const locationCollection = [
 },
 {
     picture: "./images/tropical island 1.webp",
-    location: "Corral in Mexico"
+    location: "Coral in Mexico"
 },
 {
     picture: "./images/tropical island 2.jpg",
-    location: "Corral in Barbadose"
+    location: "Coral in Barbadose"
 },
 {
     picture: "./images/island 3.jpg",
-    location: "Corral in Malta"
+    location: "Coral in Malta"
 }
 ]
