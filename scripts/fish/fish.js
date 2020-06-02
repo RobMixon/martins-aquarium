@@ -5,22 +5,22 @@
 
 const fishConverter = (fishObject) => {
 
-    const fishHTMLRepresentation = ` {
+    const fishHTMLRepresentation = `
     <section class="fish">
         <div class="">
             <img class="fish__picture" src="${fishObject.fish__picture}"
-                alt="${fishObject.name} the ${fishObject.species}"
+                alt="${fishObject.name} the ${fishObject.species}" />
         </div>
         <div class="fish__details">
             <ul>
-                <li> Species: ${fishObejct.species}</li>
-                <li> Length: ${fishObejct.length}</li>
-                <li> Name: ${fishObejct.name}</li>
-                <li> Location: ${fishObejct.location}</li>
-                <li> Food: ${fishObejct.food}</li>
+                <li> Species: ${fishObject.species}</li>
+                <li> Length: ${fishObject.length}</li>
+                <li> Name: ${fishObject.name}</li>
+                <li> Location: ${fishObject.location}</li>
+                <li> Food: ${fishObject.food}</li>
             </ul>
         </div>
-    </section> }`
+    </section> `
 
-    return fishHTMLRepresentation `
+    return fishHTMLRepresentation 
 }
