@@ -1,6 +1,5 @@
 .banner {
     background-color: coral;
-    border: black dotted 1px;
     display: flex;
     
 }
@@ -10,7 +9,6 @@
 .banner__title {
 padding: 10px;
 margin: 15px;
-border: black dotted 1px;
 background-color: seashell;
 font-size: 70px;
 display: flex;
