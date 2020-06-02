@@ -10,10 +10,14 @@
     background-color: mediumvioletred;
     border: chartreuse dotted 1px;
     max-width: 20%;
+    display: flex;
+    align-items: center;
+    padding: 5px;
 }
 
 
 .fish__picture {
     max-width: 15rem;
-    max-height: 15rem;
+    max-height: auto;
+    object-fit: cover;
 }
