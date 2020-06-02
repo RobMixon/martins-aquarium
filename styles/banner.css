@@ -1,3 +1,27 @@
 .banner {
-    background-color: darkgoldenrod;
+    background-color: coral;
+    border: black dotted 1px;
+    display: flex;
+    
+}
+
+
+
+.banner__title {
+padding: 10px;
+margin: 15px;
+border: black dotted 1px;
+background-color: seashell;
+font-size: 70px;
+display: flex;
+align-content: center;
+justify-content: center;
+}
+
+
+.banner__logo_image {
+    max-width: 200px;
+    max-height: auto;
+    border: black dotted 1px;
+    margin: 5px;
 }

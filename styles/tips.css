@@ -1,8 +1,19 @@
 .tipList {
-    background-color: dodgerblue;
+    background-color: coral;
     height: 100%;
+    border: black 1px dotted;
 }
 
 .tip {
-    background-color: royalblue;
+    border: black 1px dotted;
+}
+
+.tip__tip {
+    background: seashell;
+    border: red 1px dotted;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
 }

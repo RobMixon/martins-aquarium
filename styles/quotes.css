@@ -1,7 +1,12 @@
 .quoteList {
-    background-color: lightyellow;
+    background-color: coral;
+    border: black dotted 1px;
 }
 
 .quote {
-    background-color: yellow;
+    background-color: seashell;
+    border: black dotted 1px;
+    display: flex;
+    margin: 15px;
+    font-size: 20px;
 }
