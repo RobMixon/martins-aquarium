@@ -1,5 +1,5 @@
 .locationList {
-    background-color: coral;
+    background-color: rgb(59, 236, 222);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -45,7 +45,7 @@
 }
 
 .flip__card_back {
-    background-color: lightcoral;
+    background-color: rgb(247, 227, 142);
     color: black;
     transform: rotateY(180deg);
 }

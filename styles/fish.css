@@ -1,5 +1,5 @@
 .fishList {
-    background-color: coral;
+    background-color: rgb(59, 236, 222);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -7,7 +7,6 @@
 }
 
 .fish {
-    background-color: seashell;
     background-color: seashell;
     margin: auto;
     text-align: center;
@@ -27,7 +26,7 @@
     background-color: seashell;
     font-size: 35px;
     padding: 5px;
-    margin: 5px;
+    margin: 15px;
 
 }
 
@@ -68,7 +67,7 @@
 }
 
 .flip__card_back_fish {
-    background-color: lightcoral;
+    background-color: rgb(123, 240, 172);
     color: black;
     transform: rotateY(180deg);
 
