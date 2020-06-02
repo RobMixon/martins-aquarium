@@ -1,11 +1,10 @@
 .tipList {
-    background-color: coral;
+    background-color: rgb(59, 236, 222);
     height: 90%;
 }
 
 .tip__header {
     background: seashell;
-    border-radius: 5px;
     font-size: 35px;
     margin-top: 20px;
     margin-left: 5px;

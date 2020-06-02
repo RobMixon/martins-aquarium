@@ -5,14 +5,17 @@
 @import "banner.css";
 
 body {
-    background-color: cornflowerblue;
     display: inline-block;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    background-color: coral;
+    background-color: rgb(59, 236, 222);
+}
+
+body {
+    background-color: rgb(86, 139, 255);
 }
 
 .underTheBanner {
