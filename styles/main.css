@@ -4,6 +4,10 @@
 @import "quotes.css";
 @import "banner.css";
 
+body {
+    background-color: cornflowerblue;
+    display: inline-block;
+}
 
 .container {
     display: flex;
