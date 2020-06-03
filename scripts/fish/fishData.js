@@ -1,9 +1,15 @@
 const fishCollection = [
     {
         species: "Fish Fish",
+<<<<<<< HEAD
         length: "25 in",
         location: "corral off of Australia",
         picture: "images/cenpbx.jpg",
+=======
+        length: "2 in",
+        location: "coral off of Australia",
+        picture: "./images/c3npbx.jpg",
+>>>>>>> 2721858d61a03746a9d869644325b8c19a5c8a82
         food: "aussie fries",
         name: "Bert"
     },
@@ -11,15 +17,15 @@ const fishCollection = [
         species: "Other Fish",
         length: "12 in",
         location: "The bar on the beach",
-        picture: "images/file-20191030-154716-1wc4d64.jpg",
+        picture: "./images/file-20191030-154716-1wc4d64.jpg",
         food: "Jack Daniels and salted nuts",
         name: "Stan the Man"
     },
     {
         species: "Lion Fish",
         length: "14 in",
-        location: "corral reef off of Barbadose",
-        picture: "images/fish-hero.adapt.1900.1.jpg",
+        location: "coral reef off of Barbadose",
+        picture: "./images/fish-hero.adapt.1900.1.jpg",
         food: "other fish",
         name: "Drew"
     },
@@ -27,7 +33,7 @@ const fishCollection = [
         species: "Goldfish",
         length: "150 in",
         location: "Pet store Aquarium",
-        picture: "images/goldfish.jpeg",
+        picture: "./images/goldfish.jpeg",
         food: "Whatevs",
         name: "Goldy"
     },
@@ -43,7 +49,7 @@ const fishCollection = [
         species: "Cool Dorry Fish",
         length: "11 in",
         location: "Coast of Malta",
-        picture: "images/images.jpeg",
+        picture: "./images/images.jpeg",
         food: "Donuts",
         name: "Bob"
     },
@@ -51,7 +57,7 @@ const fishCollection = [
         species: "Fancy Fish",
         length: "8 in",
         location: "Coast of Malta",
-        picture: "images/iStock-1160758684_NONTANUN-CHAIPRAKON-1-602x301.jpg",
+        picture: "./images/iStock-1160758684_NONTANUN-CHAIPRAKON-1-602x301.jpg",
         food: "Popcorn",
         name: "Fancy"
     },
@@ -59,7 +65,7 @@ const fishCollection = [
         species: "Skirt Fish",
         length: "27 in",
         location: "Salsa place",
-        picture: "images/RY2EpSo74hvYXyAVpTN2Gg-1200-80.jpg",
+        picture: "./images/RY2EpSo74hvYXyAVpTN2Gg-1200-80.jpg",
         food: "Tacos",
         name: "Raul"
     },
@@ -67,7 +73,7 @@ const fishCollection = [
         species: "Spotted Fish",
         length: "4 in",
         location: "The pet store aquarium",
-        picture: "images/photo-1576806021995-9f68eb39f10b.jpeg",
+        picture: "./images/photo-1576806021995-9f68eb39f10b.jpeg",
         food: "Fish food",
         name: "Coral"
     },
