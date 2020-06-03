@@ -26,9 +26,16 @@
             <div class="underTheBanner__left">
                 <article class="quoteList">
                     <h2 class="quote__header">Quotes by Cool Fish People</h2>
-
+                        
                 </article>
                     <h2 class="fish__header">Martin's Fish Collection</h2>
+                        <label class="fish__selector">Holiness Level</label>
+                            <select onchange={sortFish()} id="holiness__selector">
+                                <option value="all">All Fish</option>
+                                <option value="holy">Holy Fish</option>
+                                <option value="soldier">Soldier Fish</option>
+                                <option value="unworthy">Unworthy Fish</option>
+                            </select>
                 <article class="fishList">
                     
                 </article>
