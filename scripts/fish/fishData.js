@@ -1,7 +1,7 @@
 const fishCollection = [
     {
         species: "Fish Fish",
-        length: "2 in",
+        length: "25 in",
         location: "corral off of Australia",
         picture: "images/cenpbx.jpg",
         food: "aussie fries",
@@ -25,7 +25,7 @@ const fishCollection = [
     },
     {
         species: "Goldfish",
-        length: "8 in",
+        length: "150 in",
         location: "Pet store Aquarium",
         picture: "images/goldfish.jpeg",
         food: "Whatevs",
@@ -73,3 +73,22 @@ const fishCollection = [
     },
 
 ]
+
+const holyFish = () => {
+    const mostHolyFish = []
+    const soldierFish = []
+    const unworthyFish = []
+    for (const fish of fishCollection) {
+        if (parseInt(fish.length) % 3 === 0) {
+            mostHolyFish.push(fish)
+        }
+        else if (parseInt(fish.length) % 5 === 0) {
+            soldierFish.push(fish)
+        } 
+        else {
+            unworthyFish.push(fish)
+        }
+    } 
+    let newArray = [...mostHolyFish, ...soldierFish , ...unworthyFish]
+    return newArray
+}

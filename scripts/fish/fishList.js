@@ -2,7 +2,7 @@
     Responsible for generating a list of fish HTML
     representations, and putting it in the browser
 */
-const fishList = () => {
+/* const fishList = () => {
 
     for (const currentFishObject of fishCollection) {
 
@@ -14,4 +14,18 @@ const fishList = () => {
 
     }
 
+}*/
+
+const showHolyFish = () => {
+    const fishObjectsArray = holyFish()
+
+    for (const fishObject of fishObjectsArray) {
+        const fishHTMLRepresentation = fish (fishObject)
+        contentTarget.innerHTML += fishHTMLRepresentation
+    }
 }
+
+const fishList = () => {
+    showHolyFish()
+}
+
