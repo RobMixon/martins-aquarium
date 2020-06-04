@@ -1,3 +1,4 @@
+/*
 const fishCollection = [
     {
         species: "Fish Fish",
@@ -71,9 +72,24 @@ const fishCollection = [
         food: "Fish food",
         name: "Coral"
     },
-
 ]
-/*
+*/
+
+let fishCollection = []
+
+const getFishData = () => {
+    return fetch("http://localhost:8088/fish").then(
+        (response) => {
+            return response.json()
+        }
+    )
+    .then(
+        (arrayOfFish) => {
+            fishCollection = arrayOfFish
+        }
+    )
+}
+
 const holyFish = () => {
     const mostHolyFish = []
     const soldierFish = []
@@ -91,8 +107,7 @@ const holyFish = () => {
     } 
     let newArray = [...mostHolyFish, ...soldierFish , ...unworthyFish]
     return newArray
-} */
-
+} 
 
 const mostHolyFish = () => {
     const result = [];
