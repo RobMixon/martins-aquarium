@@ -1,0 +1,119 @@
+{
+ "fish": [
+            {
+                "species": "Fish Fish",
+                "length": 2,
+                "location": "coral off of Australia",
+                "picture": "./images/c3npbx.jpg",
+                "food": "aussie fries",
+                "name": "Bert"
+            },
+            {
+                "species": "Other Fish",
+                "length": 12,
+                "location": "The bar on the beach",
+               "picture": "./images/file-20191030-154716-1wc4d64.jpg",
+                "food": "Jack Daniels and salted nuts",
+               "name": "Stan the Man"
+            },
+            {
+                "species": "Lion Fish",
+                "length": 14,
+                "location": "coral reef off of Barbadose",
+                "picture": "./images/fish-hero.adapt.1900.1.jpg",
+                "food": "other fish",
+                "name": "Drew"
+            },
+            {
+                "species": "Goldfish",
+                "length": 150,
+                "location": "Pet store Aquarium",
+                "picture": "./images/goldfish.jpeg",
+                "food": "Whatevs",
+                "name": "Goldy"
+            },
+            {
+                "species": "Parrot Fish",
+                "length": 10,
+                "location": "Sea of Google",
+                "picture": "https://i.ytimg.com/vi/y6tdGVTgmm4/maxresdefault.jpg",
+                "food": "Popcorn",
+                "name": "Angus"
+            },
+            {
+                "species": "Cool Dorry Fish",
+                "length": 11,
+                "location": "Coast of Malta",
+                "picture": "./images/images.jpeg",
+                "food": "Donuts",
+                "name": "Bob"
+            },
+            {
+                "species": "Fancy Fish",
+                "length": 8,
+                "location": "Coast of Malta",
+                "picture": "./images/iStock-1160758684_NONTANUN-CHAIPRAKON-1-602x301.jpg",
+                "food": "Popcorn",
+                "name": "Fancy"
+            },
+            {
+                "species": "Skirt Fish",
+                "length": 27,
+                "location": "Salsa place",
+                "picture": "./images/RY2EpSo74hvYXyAVpTN2Gg-1200-80.jpg",
+                "food": "Tacos",
+                "name": "Raul"
+            },
+            {
+                "species": "Spotted Fish",
+                "length": 4,
+                "location": "The pet store aquarium",
+                "picture": "./images/photo-1576806021995-9f68eb39f10b.jpeg",
+                "food": "Fish food",
+                "name": "Coral"
+            }
+        ],
+ "locations": [
+                {
+                    "pict                                                                                      ure": "./images/aquarium.jpeg",
+                    "location":"Aquarium"
+                },
+                {
+                    "picture": "./images/tropical island 1.webp",
+                    "location": "Coral in Mexico"
+                },
+                {
+                    "picture": "./images/tropical island 2.jpg",
+                    "location": "Coral in Barbadose"
+                },
+                {
+                    "picture": "./images/island 3.jpg",
+                    "location": "Coral in Malta"
+                }
+            ],
+ "tips": [
+            {
+                "tip": "Feed fish daily"
+            },
+            {
+                "tip": "Dont tap on glass"
+            },
+            {
+                "tip": "Do not take fish out of water"
+            },
+            {
+                "tip": "Handle with care"
+            }
+        ],
+ "quote": [    
+            {
+                "quote": "Forage brooklyn prism shaman readymade hammock selvage hot chicken - steve"
+            },
+            {
+                "quote": "Martin is the best fisherman  - Martin "
+            },
+            {
+                "quote": "Martin is the coolest person - Martin "
+            }
+        ]
+}
