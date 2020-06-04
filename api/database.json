@@ -6,7 +6,8 @@
                 "location": "coral off of Australia",
                 "picture": "./images/c3npbx.jpg",
                 "food": "aussie fries",
-                "name": "Bert"
+                "name": "Bert",
+                "id":0
             },
             {
                 "species": "Other Fish",
@@ -14,7 +15,8 @@
                 "location": "The bar on the beach",
                "picture": "./images/file-20191030-154716-1wc4d64.jpg",
                 "food": "Jack Daniels and salted nuts",
-               "name": "Stan the Man"
+               "name": "Stan the Man",
+               "id":1
             },
             {
                 "species": "Lion Fish",
@@ -22,7 +24,8 @@
                 "location": "coral reef off of Barbadose",
                 "picture": "./images/fish-hero.adapt.1900.1.jpg",
                 "food": "other fish",
-                "name": "Drew"
+                "name": "Drew",
+                "id":2
             },
             {
                 "species": "Goldfish",
@@ -30,7 +33,8 @@
                 "location": "Pet store Aquarium",
                 "picture": "./images/goldfish.jpeg",
                 "food": "Whatevs",
-                "name": "Goldy"
+                "name": "Goldy",
+                "id":3
             },
             {
                 "species": "Parrot Fish",
@@ -38,7 +42,8 @@
                 "location": "Sea of Google",
                 "picture": "https://i.ytimg.com/vi/y6tdGVTgmm4/maxresdefault.jpg",
                 "food": "Popcorn",
-                "name": "Angus"
+                "name": "Angus",
+                "id":4
             },
             {
                 "species": "Cool Dorry Fish",
@@ -46,7 +51,8 @@
                 "location": "Coast of Malta",
                 "picture": "./images/images.jpeg",
                 "food": "Donuts",
-                "name": "Bob"
+                "name": "Bob",
+                "id":5
             },
             {
                 "species": "Fancy Fish",
@@ -54,7 +60,8 @@
                 "location": "Coast of Malta",
                 "picture": "./images/iStock-1160758684_NONTANUN-CHAIPRAKON-1-602x301.jpg",
                 "food": "Popcorn",
-                "name": "Fancy"
+                "name": "Fancy",
+                "id":6
             },
             {
                 "species": "Skirt Fish",
@@ -62,7 +69,8 @@
                 "location": "Salsa place",
                 "picture": "./images/RY2EpSo74hvYXyAVpTN2Gg-1200-80.jpg",
                 "food": "Tacos",
-                "name": "Raul"
+                "name": "Raul",
+                "id":7
             },
             {
                 "species": "Spotted Fish",
@@ -70,50 +78,62 @@
                 "location": "The pet store aquarium",
                 "picture": "./images/photo-1576806021995-9f68eb39f10b.jpeg",
                 "food": "Fish food",
-                "name": "Coral"
+                "name": "Coral",
+                "id":8
             }
         ],
  "locations": [
                 {
                     "pict                                                                                      ure": "./images/aquarium.jpeg",
-                    "location":"Aquarium"
+                    "location":"Aquarium",
+                    "id":0
                 },
                 {
                     "picture": "./images/tropical island 1.webp",
-                    "location": "Coral in Mexico"
+                    "location": "Coral in Mexico",
+                    "id":1
                 },
                 {
                     "picture": "./images/tropical island 2.jpg",
-                    "location": "Coral in Barbadose"
+                    "location": "Coral in Barbadose",
+                    "id":2
                 },
                 {
                     "picture": "./images/island 3.jpg",
-                    "location": "Coral in Malta"
+                    "location": "Coral in Malta",
+                    "id":3
                 }
             ],
  "tips": [
             {
-                "tip": "Feed fish daily"
+                "tip": "Feed fish daily",
+                "id":0
             },
             {
-                "tip": "Dont tap on glass"
+                "tip": "Dont tap on glass",
+                "id":1
             },
             {
-                "tip": "Do not take fish out of water"
+                "tip": "Do not take fish out of water",
+                "id":2
             },
             {
-                "tip": "Handle with care"
+                "tip": "Handle with care",
+                "id":3
             }
         ],
  "quote": [    
             {
-                "quote": "Forage brooklyn prism shaman readymade hammock selvage hot chicken - steve"
+                "quote": "Forage brooklyn prism shaman readymade hammock selvage hot chicken - steve",
+                "id":0
             },
             {
-                "quote": "Martin is the best fisherman  - Martin "
+                "quote": "Martin is the best fisherman  - Martin ",
+                "id":1
             },
             {
-                "quote": "Martin is the coolest person - Martin "
+                "quote": "Martin is the coolest person - Martin ",
+                "id":2
             }
         ]
 }
