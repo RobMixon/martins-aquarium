@@ -75,21 +75,7 @@ const fishCollection = [
 ]
 */
 
-let fishCollection = []
-
-const getFishData = () => {
-    return fetch("http://localhost:8088/fish").then(
-        (response) => {
-            return response.json()
-        }
-    )
-    .then(
-        (arrayOfFish) => {
-            fishCollection = arrayOfFish
-        }
-    )
-}
-
+/*
 const holyFish = () => {
     const mostHolyFish = []
     const soldierFish = []
@@ -108,6 +94,22 @@ const holyFish = () => {
     let newArray = [...mostHolyFish, ...soldierFish , ...unworthyFish]
     return newArray
 } 
+*/
+
+let fishCollection = []
+
+const getFishData = () => {
+    return fetch("http://localhost:8088/fish").then(
+        (response) => {
+            return response.json()
+        }
+    )
+    .then(
+        (arrayOfFish) => {
+            fishCollection = arrayOfFish
+        }
+    )
+}
 
 const mostHolyFish = () => {
     const result = [];
@@ -138,3 +140,5 @@ const unworthyFish = () => {
     }
     return result
 }
+
+
