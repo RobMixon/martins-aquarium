@@ -74,3 +74,8 @@ const fishList = (fishCollection) => {
     sortFish(fishCollection)
 }
 
+const fishVisibilityButton = document.querySelector(".toggleFish")
+
+fishVisibilityButton.addEventListener("click", clickEvent => {
+    document.querySelector(".fishList").classList.toggle("hidden")
+})

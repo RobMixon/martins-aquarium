@@ -84,7 +84,7 @@
         ],
  "locations": [
                 {
-                    "pict                                                                                      ure": "./images/aquarium.jpeg",
+                    "picture":"./images/aquarium.jpeg",
                     "location":"Aquarium",
                     "id":0
                 },

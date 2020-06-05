@@ -30,13 +30,18 @@
                 </article>
                     <h2 class="fish__header">Martin's Fish Collection</h2>
                         <label class="fish__selector">Holiness Level</label>
-                            <select onchange={sortFish()} id="holiness__selector">
-                                <option value="all">All Fish</option>
-                                <option value="holy">Holy Fish</option>
-                                <option value="soldier">Soldier Fish</option>
-                                <option value="unworthy">Unworthy Fish</option>
-                                <option value="none">No Fish</option>
-                            </select>
+                            <section class="fish__selector_box">
+                                <select onchange={sortFish()} id="holiness__selector">
+                                    <option value="all">All Fish</option>
+                                    <option value="holy">Holy Fish</option>
+                                    <option value="soldier">Soldier Fish</option>
+                                    <option value="unworthy">Unworthy Fish</option>
+                                    <option value="none">No Fish</option>
+                                </select>
+                                <button class="toggleTips">Toggle Tips</button>
+                                <button class="toggleFish">Toggle Fish</button>
+                                <button class="toggleLocation">Toggle Location</button>
+                            </section>
                 <article class="fishList">
                     
                 </article>
