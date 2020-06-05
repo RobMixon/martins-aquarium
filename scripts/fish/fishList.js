@@ -46,6 +46,7 @@ const sortFish = (fishCollection) => {
     let fish5 = soldierFish(fishCollection);
     let fish7 = unworthyFish(fishCollection);
     let orderedFish = [...fish3,...fish5, ...fish7];
+    let clearFishList = "";
 
 let targetSelector = document.getElementById("holiness__selector")
     switch (targetSelector.value) {
@@ -60,6 +61,10 @@ let targetSelector = document.getElementById("holiness__selector")
             break;
         case "unworthy":
             showHolyFish(fish7)
+            break;
+        case "none":
+            showHolyFish(clearFishList)
+            break;
             default:
             break;
     }
@@ -68,4 +73,11 @@ let targetSelector = document.getElementById("holiness__selector")
 const fishList = (fishCollection) => {
     sortFish(fishCollection)
 }
+
+const fishVisibilityButton = document.querySelector(".toggleFish")
+
+fishVisibilityButton.addEventListener("click", clickEvent => {
+    document.querySelector(".fishList").classList.toggle("hidden")
+})
+
 

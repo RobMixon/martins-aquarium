@@ -4,6 +4,10 @@
 @import "quotes.css";
 @import "banner.css";
 
+.hidden {
+    display: none;
+}
+
 body {
     display: inline-block;
 }
